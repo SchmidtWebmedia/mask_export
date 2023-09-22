@@ -72,6 +72,7 @@ class ExtensionConfigurationAggregate extends AbstractAggregate implements PhpAw
                 'constraints' => [
                     'depends' => [
                         'typo3' => sprintf('%s.0-%s.99', $this->typo3Version->getBranch(), $this->typo3Version->getBranch()),
+                        'fontawesome_provider' => ''
                     ],
                     'conflicts' => [],
                     'suggests' => [],
